@@ -1,0 +1,91 @@
+.createOrder {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}
+
+
+.option-group{
+  display: flex;
+  flex-direction: row;
+}
+
+.column-group{
+  background-color: #ffffff;
+    width: 280px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: rgb(0 0 0 / 34%) 0px 3px 8px;
+}
+
+.option-list{
+  padding:25px 35px;
+  background-color: #ffe2ba6b;
+   margin: 15px 0;
+   border-radius: 5px;
+}
+
+.selected-option{
+  background-color: #ffdfba;
+}
+
+.disabled-option{
+  background-color: #80808029;
+}
+
+.loading-text{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.submit-button{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.submit-input-button{
+  height: 50px;
+  width: 250px;
+  background: #1a91d3;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  border: 0;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.submit-input-button:hover{
+  background: #186a98;
+}
+
+.disabled-submit{
+  background-color: gray;
+}
+
+.disabled-submit:hover{
+  background-color: gray;
+}
+
+.dot-holder{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:5px
+}
+
+.dot-color{
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.food-title{
+  margin-left: 10px;
+  font-weight: bold;
+  color:#104c6d
+}
